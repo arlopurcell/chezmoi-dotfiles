@@ -1,0 +1,7 @@
+[user]
+	email = arlo@purcell.live
+	name = Arlo Purcell
+[mergetool "fugitive"]
+	cmd = nvim -f -c \"Gvdiffsplit!\" \"$MERGED\"
+[merge]
+	tool = fugitive
